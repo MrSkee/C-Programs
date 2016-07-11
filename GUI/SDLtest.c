@@ -1,5 +1,6 @@
 /*Sean Kee*/
-/*SDL Test*/
+/*SDL Test v1.0.1*/
+/*Attempt to move the square*/
 #include <stdio.h>
 #include <SDL2/SDL.h>
 
@@ -25,10 +26,10 @@ int main(int argc, char *arg[]) {
 			);
 	renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED);
 
-	SDL_SetRenderDrawColor(renderer, 0, 0, 255, 255); /*RGB, alpha*/
+	SDL_SetRenderDrawColor(renderer, 100, 100, 100, 255); /*RGB, alpha*/
 
 	SDL_RenderClear(renderer); /*Clears the window to the color set*/
-	SDL_SetRenderDrawColor(renderer, 255, 255, 255, 255); /*Sets the next color*/
+	SDL_SetRenderDrawColor(renderer, 255, 255, 255, 1); /*Sets the renderer's next color*/
 
 	SDL_Rect rect = {220, 140, 200, 200}; /*Create a Rectangle, using renderer pointer*/
 	SDL_RenderFillRect(renderer, &rect); /*creates a filled rectange and stores it in renderer settings, and creates the rect Rectangle.*/
