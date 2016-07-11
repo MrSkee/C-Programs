@@ -25,22 +25,22 @@ int main(int argc, char *arg[]) {
 			);
 	renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED);
 
-	SDL_SetRenderDrawColor(renderer, 0, 0, 255, 255);
+	SDL_SetRenderDrawColor(renderer, 0, 0, 255, 255); /*RGB, alpha*/
 
-	SDL_RenderClear(renderer);
-	SDL_SetRenderDrawColor(renderer, 255, 255, 255, 255);
+	SDL_RenderClear(renderer); /*Clears the window to the color set*/
+	SDL_SetRenderDrawColor(renderer, 255, 255, 255, 255); /*Sets the next color*/
 
-	SDL_Rect rect = {220, 140, 200, 200};
-	SDL_RenderFillRect(renderer, &rect);
+	SDL_Rect rect = {220, 140, 200, 200}; /*Create a Rectangle, using renderer pointer*/
+	SDL_RenderFillRect(renderer, &rect); /*creates a filled rectange and stores it in renderer settings, and creates the rect Rectangle.*/
 
-	SDL_RenderPresent(renderer);
+	SDL_RenderPresent(renderer); /*Presents the renderer(Displays on screen)*/
 
-	SDL_Delay(2000);
+	SDL_Delay(2000); /*Waits 2 seconds*/
 
-	SDL_DestroyWindow(window);
-	SDL_DestroyRenderer(renderer);
+	SDL_DestroyWindow(window); /*Destroys the window*/
+	SDL_DestroyRenderer(renderer); /*Destroys the renderer*/
 
-	SDL_Quit();
+	SDL_Quit(); /*Quits out of SDL*/
 
 	return 0;
 }
