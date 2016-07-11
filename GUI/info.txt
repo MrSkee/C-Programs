@@ -13,3 +13,6 @@ libsdl2-image-2.0.0
 libsdl2-image-dbg
 libsdl2-image-dev
 
+In SDL Folder,
+less INSTALL.txt
+
