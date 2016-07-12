@@ -7,12 +7,12 @@ SDL
 
 Libraries
 libsdl2-2.0-0
-libsdl2-dbg
-libsdl2-dev
-libsdl2-image-2.0.0
-libsdl2-image-dbg
-libsdl2-image-dev
+//libsdl2-dbg
+//libsdl2-dev
+//libsdl2-image-2.0.0
+//libsdl2-image-dbg
+//libsdl2-image-dev
 
-In SDL Folder,
-less INSTALL.txt
+//In SDL Folder,
+//less INSTALL.txt
 
