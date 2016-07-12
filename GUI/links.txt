@@ -1,5 +1,0 @@
-OpenGL
-
-http://opensourceforu.com/2013/04/graphics-programming-in-linux/
-
-

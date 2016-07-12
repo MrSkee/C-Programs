@@ -1,0 +1,40 @@
+build/SDL_mirdyn.lo: \
+ /home/skee/Documents/Code/C-Programs/GUI/SDL/src/video/mir/SDL_mirdyn.c \
+ /home/skee/Documents/Code/C-Programs/GUI/SDL/src/video/mir/../../SDL_internal.h \
+ /home/skee/Documents/Code/C-Programs/GUI/SDL/src/video/mir/../../dynapi/SDL_dynapi.h \
+ /home/skee/Documents/Code/C-Programs/GUI/SDL/src/video/mir/../../dynapi/SDL_dynapi_overrides.h \
+ include/SDL_config.h include/SDL_platform.h include/begin_code.h \
+ include/close_code.h \
+ /home/skee/Documents/Code/C-Programs/GUI/SDL/src/video/mir/SDL_mirdyn.h \
+ /usr/include/mirclient/mir_toolkit/mir_client_library.h \
+ /usr/include/mirclient/mir_toolkit/mir_connection.h \
+ /usr/include/mirclient/mir_toolkit/client_types.h \
+ /usr/include/mirclient/mir_toolkit/events/event.h \
+ /usr/include/mircommon/mir_toolkit/common.h \
+ /usr/include/mirclient/mir_toolkit/events/input/input_event.h \
+ /usr/include/mirclient/mir_toolkit/events/input/touch_event.h \
+ /usr/include/mirclient/mir_toolkit/events/input/keyboard_event.h \
+ /usr/include/mirclient/mir_toolkit/events/input/pointer_event.h \
+ /usr/include/mirclient/mir_toolkit/events/resize_event.h \
+ /usr/include/mirclient/mir_toolkit/events/surface_event.h \
+ /usr/include/mirclient/mir_toolkit/events/orientation_event.h \
+ /usr/include/mirclient/mir_toolkit/events/prompt_session_event.h \
+ /usr/include/mirclient/mir_toolkit/events/keymap_event.h \
+ /usr/include/mirclient/mir_toolkit/events/input_configuration_event.h \
+ /usr/include/mirclient/mir_toolkit/events/surface_output_event.h \
+ /usr/include/mirclient/mir_toolkit/mir_surface.h \
+ /usr/include/mircommon/mir_toolkit/mir_native_buffer.h \
+ /usr/include/mirclient/mir_toolkit/mir_cursor_configuration.h \
+ /usr/include/mirclient/mir_toolkit/mir_wait.h \
+ /usr/include/mirclient/mir_toolkit/mir_buffer_stream.h \
+ /usr/include/mirclient/mir_toolkit/version.h \
+ /usr/include/mircommon/mir_toolkit/mir_version_number.h \
+ /usr/include/mirclient/mir_toolkit/mir_platform_message.h \
+ /usr/include/mirclient/mir_toolkit/cursors.h \
+ /usr/include/mirclient/mir_toolkit/mir_cookie.h \
+ /usr/include/mirclient/mir_toolkit/mir_display_configuration.h \
+ /usr/include/mirclient/mir_toolkit/client_types.h \
+ /usr/include/mirclient/mir_toolkit/mir_input_device.h \
+ /home/skee/Documents/Code/C-Programs/GUI/SDL/src/video/mir/SDL_mirsym.h \
+ include/SDL_name.h include/SDL_loadso.h include/SDL_stdinc.h \
+ include/SDL_config.h include/SDL_error.h
